@@ -78,3 +78,6 @@ Thumbs.db
 !_node_modules.zip
 !.env.sample
 !.github
+
+# secrets folder
+/secrets
