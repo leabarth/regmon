@@ -9,9 +9,9 @@
 			<fieldset class="fieldset">
 				<legend class="fieldset-legend">Passwort</legend>
 				<input type="text" class="input" placeholder="Passwort" />
-				<p class="label">
-					Lassen Sie dieses Feld leer, wenn Sie das Passwort <b>nicht</b> ändern wollen.
-				</p>
+                <p class="label break-words whitespace-normal">
+                    Lassen Sie dieses Feld leer, wenn Sie das Passwort nicht ändern wollen.
+                </p>
 			</fieldset>
 			<fieldset class="fieldset">
 				<legend class="fieldset-legend">Passwort bestätigen</legend>
@@ -41,7 +41,7 @@
 					placeholder="Körperhöhe"
 					min="100"
 					max="250"
-					title="Must be between be 1 to 10"
+					title="Muss zwischen 100 und 250 liegen."
 				/>
 			</fieldset>
 			<fieldset class="fieldset">

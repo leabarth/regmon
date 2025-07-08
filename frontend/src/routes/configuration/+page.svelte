@@ -1,3 +1,7 @@
+<script lang="ts">
+    import Button from '$lib/Button.svelte';
+</script>
+
 <nav
 	class="fixed right-8 top-32 z-10 hidden flex-col gap-2 rounded-none bg-white/80 p-2 text-sm font-medium text-gray-400 shadow-none md:flex"
 >
@@ -16,12 +20,8 @@
 				<p class="py-4"><a href="/forms/2">Formular 2</a></p>
 				<p class="py-4"><a href="/forms/3">Formular 3</a></p>
 				<div class="card-actions justify-end">
-					<button class="btn btn-outline btn-sm border-2 border-[#003F66] text-[#003F66]"
-						>Hinzufügen</button
-					>
-					<button class="btn btn-outline btn-sm border-2 border-[#003F66] text-[#003F66]"
-						>Löschen</button
-					>
+                    <Button mode="secondary">Hinzufügen</Button>
+                    <Button mode="secondary">Löschen</Button>
 				</div>
 			</div>
 		</div>
@@ -30,18 +30,14 @@
 	<div id="gruppe" class="flex scroll-mt-24 flex-col gap-2">
 		<h2 class="font-bold">Gruppe</h2>
 		<div class="self-start">
-			<button class="btn btn-sm border-2 border-[#003F66] bg-[#003F66] text-white shadow-none"
-				>Gruppe verlassen</button
-			>
+            <Button>Gruppe verlassen</Button>
 		</div>
 	</div>
 
 	<div id="datenmanagement" class="flex scroll-mt-24 flex-col gap-2">
 		<h2 class="font-bold">Datenmanagement</h2>
 		<div class="self-start">
-			<button class="btn btn-sm border-2 border-[#003F66] bg-[#003F66] text-white shadow-none"
-				>Datenabfrage (Export)</button
-			>
+            <Button>Datenabfrage (Export)</Button>
 		</div>
 	</div>
 </div>
